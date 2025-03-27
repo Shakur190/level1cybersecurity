@@ -1,0 +1,424 @@
+#logo {
+    margin-left: 60px;
+}
+
+a {
+    color: black;
+    /* background-color: white; */
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.son2 {
+    gap: 5px;
+    margin-right: 150px;
+    border-radius: 8px;
+    
+} 
+ 
+.button1 {
+    height: 50px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid black;
+    
+}
+.button2 {
+    height: 50px;
+    width: 170px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+body {
+  font-family:  "plus Jakarta sans", sans-serif;
+  background-color: whitesmoke;
+} 
+
+
+.cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+.card-bottom {
+    display: flex;
+    margin-top: 195px;
+    gap: 15px;
+    
+
+} 
+.card-bottom2 {
+    display: flex;
+    margin-top: 210px;
+    gap: 10px;
+    
+
+}  
+
+/* .twins {
+
+} */
+
+.phone {
+    margin-top: -132px;
+    padding-left: 50px;
+     position: absolute;
+     
+}
+    
+.phone1 {
+  margin-top: -125px;
+  margin-left: 65px;
+}
+
+.phone2 {
+    margin-left: 180px;
+    margin-top: 83px;
+}
+
+.phone3 {
+    margin-top: -176px;
+    margin-left: 180px;
+} 
+
+.phone4 {
+    margin-top: -157px;
+    margin-left: 175px;
+}
+
+.phone5 {
+    margin-top: -175px;
+    margin-left: 175px;
+}
+
+.bottom3 {
+    display: flex;
+    position: absolute; 
+    gap: 10px;
+    margin-top: 220px;
+} 
+
+.twins { 
+ margin-bottom: 40px; 
+
+}  
+
+
+
+
+.bottom4 {
+    display: flex;
+    margin-top: 200px;
+    gap: 15px;
+}
+
+.bottom5 {
+    display: flex;
+    margin-top: 200px;
+    gap: 15px;
+}
+
+.bottom6 {
+    display: flex;
+    margin-top: 220px;
+    gap: 15px
+} 
+
+.text-5 {
+    margin-top: 20px;
+}
+
+
+.text-3 {
+    padding-top: 10px;
+}
+
+/* .twins  .text1  {
+    padding-bottom: 50px;
+} */
+
+.card {
+    height: 400px;
+    width: 400px;
+    background-color:  white;
+    border-radius: 10px;
+    padding: 15px 10px 10px 30px;
+    line-height: 22px;
+    justify-content: space-around;
+    flex-direction: column;
+    cursor: pointer;
+    
+    
+}
+
+
+
+.card1:hover {
+    background-color: #0F60DC;
+    
+}
+
+.card:hover p {
+color: white;
+} 
+
+.card:hover .icon{
+    content: url(../images/reply-white.png)
+}
+
+ .card2:hover .icon1 {
+    content: url(../images/reply-white.png);
+} 
+
+.last-div1:hover .icon4 {
+    content: url(../images/reply-white.png);
+}
+
+.last-div2:hover .icon5 {
+    content: url(../images/reply-white.png);
+}
+
+.card:hover span {
+   color: white; 
+}
+
+.card2:hover {
+    background-color: #2295F2;
+    
+}
+
+
+
+.big-div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+    
+    
+}
+
+.small-div {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px; 
+    padding: 15px 10px 10px 30px;  
+    line-height: 22px;
+    justify-content: space-around;
+    flex-direction: column;
+    cursor: pointer;
+}   
+
+
+.small-div p {
+    font-size: 30px;
+    font-weight: bolder;
+    
+
+}
+
+/* .text3 {
+    padding-left: 20px;
+} */
+
+.loud:hover  {
+    background-color: #069B40 ;
+    color: white;
+} 
+.loud:hover p {
+    color: white;
+}
+.loud p , .text-3 {
+    color: #069B40;
+}
+
+.loud:hover .icon2 {
+    content: url(../images/reply-white.png);
+}
+
+.loud:hover .text-3 {
+    color: white;
+}
+
+/* .pflex:hover {
+    color: white;
+} */
+
+.low p , .text-4{
+    color: #E5288E;
+}
+
+.low:hover .text-4 {
+    color: white;
+}
+
+.text-4 {
+    padding-top: 5px;
+}
+
+.text-6 {
+    padding-top: 5px;
+}
+
+/* .low:hover p , .text-4 {
+    color: white;
+} */
+
+.low:hover  .icon3 {
+    content: url(../images/reply-white.png);
+}
+
+.low:hover {
+    background-color: #E5288E;
+    color: white;  
+}  
+ 
+.last-divs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+
+    
+}
+
+
+.last-div2:hover {
+    background-color: #FF783C;
+    color: white;
+}
+
+.last-div2 p , .text-6 {
+    color: #FF783C;
+}
+
+.last-div2:hover p {
+    color: white;
+} 
+
+
+.last-div2:hover .text-6 {
+    color: white;
+}
+
+.last-div {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    line-height: 22px;
+    justify-content: space-around;
+    padding: 15px 10px 10px 30px;
+    flex-direction: column;
+}
+
+.last-div1:hover {
+    background-color: black;
+    color: white;
+}
+
+.last-div p {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/* .low .pflex , .text-4 { */
+    /* color: #E5288E; */
+ }
+
+/* .low .pflex {
+    color: #E5288E; */
+
+}
+
+/* .plex:hover , .text-4 , .icon3 {
+    color: white;
+} */
+
+.card1 p, .text1 {
+    
+    color: rgb(61, 61, 104);
+}
+
+.card p {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.card2 p, .text2 {
+    
+    color: #0F60DC;
+} 
+
+.parent {
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.container {
+    display: flex;
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+    
+} 
+.content {
+    text-align: center;
+    line-height: 2px;
+
+}
+
+.span1 {
+   font-size: 20px;
+}
+.content p  {
+    font-size: 46px;
+    font-weight: bolder;
+     /* font-family: 'plus jakarta sans, san-sheriff'; */
+}   
+
+.content
+/* .logo-text {
+    display: flex;
+   font-weight: 2px;
+  font-size: medium;
+  margin-top: 120px;
+}  */
+/* .text {
+    padding-left: 8px;
+    padding-top: 100px; */
+}
+
+.logo {
+    font-weight: 1px;
+    /* height: 3px; */
+    font-size: small;
+    padding-top: 95px;
+
+
+} 
+
+.link {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+
