@@ -1,10 +1,47 @@
 span {
     background-color: white;
     
-    
-
 }
 
+.anchor-div {
+    display: flex;
+    /* flex-direction: row; */
+    top: 0;
+    z-index: 1;
+    position: sticky; 
+    /* padding:  5px; */
+} 
+
+.btn button {
+    padding-bottom: 10px;
+}
+
+#logo {
+   margin-top: 50px;
+   color: white;
+   /* margin-top: -30px; */
+   width: 150px;
+   margin-left: 660px;
+}
+
+.godaddy {
+    margin-top: -57px;
+    margin-left: -640px
+}
+
+.domain-s {
+    margin-top: 35px;
+}
+
+.contactus {
+    margin-top: 35px;
+    margin-left: 350px;
+}
+
+.cart {
+    margin-left: 230px;
+    margin-top: -20px;
+}
  /* div {
     background-color: rgb(165, 205, 239);
     height: 600px;
@@ -18,7 +55,7 @@ span {
  #div1 {
     background-color: rgb(196, 226, 252);
     height: 670px;
-    width: 700px;
+    width: 600px;
     margin-top: 80px;
     /* padding-top: 20px;
     padding-left: 20px; */
@@ -44,7 +81,7 @@ span {
     
 
  }
- .section1 {
+.section1 {
     height: 230px;
     width: 380px;
     background-color: white;
@@ -78,15 +115,12 @@ span {
     font-size: larger;
 }
 
-
-    
-
-
- .button2 {
+.button2 {
     padding-top: 17px;
 
 }
-  .p {
+
+.p {
     padding-right: 200px;
     font-size: medium;
  
@@ -96,7 +130,8 @@ span {
     color: rgb(192, 188, 188);
     font-size: medium;
  }
- .boldex {
+
+.boldex {
     padding-right: 100px;
 }
 
@@ -141,16 +176,16 @@ span {
 }
 
 
- .button3 {
+.button3 {
     padding: 7px;
     border-radius: 3px;
     background-color: black;
     color: white;
     border: none;
     margin-left: 610px;
- }
+}
 
- .button-4 {
+.button-4 {
     padding: 8px;
     font-weight: bold;
     margin-right: 100px;
@@ -159,19 +194,38 @@ span {
     color: white;
     background-color: black;
     border: none;
- }
+}
 
- a {
+a {
     
     color: white;
-    padding: 2px;
     text-decoration: none;
- }
+    padding-top: px;
+    margin-left: 25px;
+    
+}
 
- #div2 {
+/* .anchor-div {
+    margin-left: 25px;
+    padding-top: 50px;
+    justify-content: center;
+    display: flex;
+} */
+
+/* .anchor-inner {
+    margin-top: -20px; */
+} */
+
+
+
+.contact-us {
+  justify-self: right;
+}
+
+#div2 {
     background-color: rgb(240, 236, 236);
     height: 680px;
-    width: 730px;
+    width: 580px;
     margin-top: 80px; 
     margin-left: 12px;
     padding-top: 5px;
@@ -181,16 +235,22 @@ span {
     color: black;
     margin-right: 70px;
     
- }
+}
  /* div {
     background-color: bisque;
 } */
 
-  .div-container {
+
+
+.div-container {
     display: flex;
+    /* margin-left: -10px; */
+
 }  
 
-
+.div-container-1 {
+   gap: 30px;
+}
 
 
 #div3 {
@@ -260,11 +320,9 @@ h5 {
     border-top-right-radius: 7px;
 }
 
-
-    
-
-
-    
+.image {
+    justify-self: center;
+}
 
 h3 {
     padding: 10px;

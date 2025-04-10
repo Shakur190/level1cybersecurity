@@ -1,0 +1,44 @@
+.container {
+    background-image: url(https://assets.justinmind.com/wp-content/uploads/2020/09/landing-page-design-beauty-products-1.png);
+    width: 50vw;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.container:hover {
+   background-color: rgb(0, 0, 0, 0.5);
+   background-blend-mode: overlay; 
+   .inner {
+    display: block;
+   }
+}
+
+.inner {
+    position: absolute;
+    display: none;
+    text-align: center;
+}
+
+.button {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: green;
+    text-decoration: underline;
+}
