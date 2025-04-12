@@ -223,21 +223,8 @@ a {
     text-decoration: none;
     padding-top: px;
     margin-left: 25px;
-    
+
 }
-
-/* .anchor-div {
-    margin-left: 25px;
-    padding-top: 50px;
-    justify-content: center;
-    display: flex;
-} */
-
-/* .anchor-inner {
-    margin-top: -20px; */
-} */
-
-
 
 .contact-us {
   justify-self: right;
@@ -257,15 +244,13 @@ a {
     margin-right: 70px;
     
 }
- /* div {
-    background-color: bisque;
-} */
+ 
 
 
 
 .div-container {
     display: flex;
-    /* margin-left: -10px; */
+    
 
 }  
 
@@ -353,6 +338,3 @@ h3 {
 h1 {
     padding: 10px;
 }
-
-
- 
