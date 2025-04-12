@@ -346,7 +346,7 @@ color: white;
 .parent {
     justify-content: space-between;
     margin-left: px;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     background-color: #fff; 
     padding: 20px 0;
@@ -359,6 +359,11 @@ color: white;
 
 .container {
     display: flex;
+}
+
+.son2 {
+    margin-top: -70px;
+    margin-left: 1000px;
 }
 
 .container a {
@@ -526,7 +531,8 @@ color: white;
     gap: 100px;
     margin-top: 30px;
     position: absolute;
-    margin-left: -50px;    
+    margin-left: -50px;
+
 }
 
 .section-img-2 {
