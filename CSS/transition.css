@@ -13,19 +13,19 @@
     /* transform: translate(0%, 0%);  */
     /* transform-origin: x 50%; */
     transition: transform 2s ease-in-out;
-    /* transform: scaleX(1);
-    transform: rotate(0deg); */
-    transform: skew(0deg);
-}
+    /* transform: scaleX(1); */
+    transform: rotate(100deg);
+    /* transform: skew(50deg); */
+} 
 
 #circle:hover {
     background-color: red;
     border: 5px solid yellow;
  /* transform: translate(50%, 100%);  */
      /* transform: scale(0.5); */
-     /* transform: scaleX(5);
-     transform: rotate(10100deg); */
-     transform: skew(20deg, 100deg);
+     /* transform: scaleX(5); */
+     transform: rotate(10100deg);
+     /* transform: skew(20deg, 100deg); */
 } 
 
 
@@ -45,7 +45,7 @@
 #inner:hover {
     /* background: green; */
     background: linear-gradient(180deg, green, yellow red);
-}
+} 
 
 .container {
     width: 300px;
@@ -54,13 +54,13 @@
     background-image: url(../images/A\ happy\ moment\ festava.jpg);
     background-size: cover; 
     background-repeat: no-repeat;
-    transition: background-image 2s ease-in;
-    justify-self: center;
+    transition: background-image 2s ease-in; 
     transform: translate(0%, 0%);
-    transition: transform 2s ease-in-out;
+    justify-self: center;
+     /* transition: transform 2s ease-in-out; */
 }
 
 .container:hover {
     background-image: url(../images/An\ image\ of\ waterfall\ in\ the\ woods\ Generative\ AI\ _\ Premium\ AI-generated\ image.jpg);
-    transform: translate(50%, 50%);
-}
+    /* transform: translate(50%, 50%); */
+} 
